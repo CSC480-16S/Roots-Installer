@@ -1,4 +1,4 @@
-This is the 32-bit Linux installer for the Roots genealogy website server.
+This a Linux installer for the Roots genealogy website server.
 
 Tested on: Ubuntu 15.10
 

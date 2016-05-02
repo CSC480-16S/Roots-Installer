@@ -16,12 +16,13 @@ read bit
 rm -rf -- */
 rm -f *.zip
 rm -f *.tar.xz
-rm -f *.tar.gz
 
 # get Roots
 wget "https://github.com/OSC-CSC480SP16/Roots-engine-R1/archive/engine-debug.tar.gz"
-tar -xf "engine-debug.tar.gz"
-mv "Roots-engine-R1-engine-debug/" "Roots/"
+tar -xf engine-debug
+mv Roots-engine-R1-engine-debug/ Roots/
+
+
 
 # write passwords.json
 touch "Roots/config/passwords.json"
